@@ -1,1 +1,1 @@
-# My first website prior to starting my formal education (Web development) autumn of 2024.
+# My first website prior to starting my formal education (Web Development) in the autumn of 2024.
