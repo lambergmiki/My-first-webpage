@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Example</title>
+    <style>
+        .container {
+            position: relative;
+            height: 600px;
+            background-color: lightgrey;
+        }
+        .box {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+        }
+        .bottom-zero {
+            bottom: 0;
+            left: 20px;
+        }
+        .bottom-five-hundred {
+            bottom: 500px;
+            right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box bottom-zero">Bottom 0</div>
+        <div class="box bottom-five-hundred">Bottom 500px</div>
+    </div>
+</body>
+</html>

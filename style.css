@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: grey;
+    padding-top: 80px; /* necessary so body text doesn't get stuck underneath header */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* vh = viewport height - viewport är ytan synlig för användare,
+    på en desktop = webbläsarens fönster, på en mobil = enhetens skärmyta vanligtvis */
+}
+
+.body-text {
+    text-align: center;
+    color: whitesmoke;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid goldenrod;
+}
+
+.logo {
+    font-size: 25px;
+    color: goldenrod;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: goldenrod;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.navbar a:hover {
+    color: gold;
+}
+
+.footer {
+    color: whitesmoke;
+    font-size: 14px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
